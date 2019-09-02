@@ -74,19 +74,19 @@ paragraphs[4].innerText = siteContent['main-content']['vision-content'];
 
 paragraphs[5].innerText = '123 Way 456 Street \r\n Somewhere, USA';
 
-paragraphs[6].innerText = '1 (888) 888-8888';
+paragraphs[6].innerText = siteContent['contact']['phone'];
 
-paragraphs[7].innerText = 'sales@greatidea.io';
+paragraphs[7].innerText = siteContent['contact']['email'];
 
-paragraphs[8].innerText = 'Copyright Great Idea! 2018';
+paragraphs[8].innerText = siteContent['footer']['copyright'];
 
 const h4s = document.getElementsByTagName('h4');
-h4s[0].textContent = 'Features';
-h4s[1].textContent = 'About';
-h4s[2].textContent = 'Services';
-h4s[3].textContent = 'Product';
-h4s[4].textContent = 'Vision';
-h4s[5].textContent = 'Contact';
+h4s[0].textContent = siteContent['main-content']['features-h4'];
+h4s[1].textContent = siteContent['main-content']['about-h4'];
+h4s[2].textContent = siteContent['main-content']['services-h4'];
+h4s[3].textContent = siteContent['main-content']['product-h4'];
+h4s[4].textContent = siteContent['main-content']['vision-h4'];
+h4s[5].textContent = siteContent['contact']['contact-h4'];
 
 anchors.forEach(element => {
   element.style.color = 'green';

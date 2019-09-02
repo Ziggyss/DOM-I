@@ -42,12 +42,12 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const anchors = document.querySelectorAll('a');
-anchors[0].textContent = "Services";
-anchors[1].textContent = "Product";
-anchors[2].textContent = "Vision";
-anchors[3].textContent = "Features";
-anchors[4].textContent = "About";
-anchors[5].textContent = "Contact";
+anchors[0].textContent = siteContent["nav"]["nav-item-1"];
+anchors[1].textContent = siteContent["nav"]["nav-item-2"];
+anchors[2].textContent = siteContent["nav"]["nav-item-3"];
+anchors[3].textContent = siteContent["nav"]["nav-item-4"];
+anchors[4].textContent = siteContent["nav"]["nav-item-5"];
+anchors[5].textContent = siteContent["nav"]["nav-item-6"];
 
 const logoImage = document.querySelector('#logo-img');
 logoImage.src = 'img/logo.png';

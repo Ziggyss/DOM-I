@@ -71,15 +71,22 @@ paragraphs[1].innerText = 'About content elementum magna eros, ac posuere elvit 
 
 paragraphs[2].innerText = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
-paragraphs[4].innerText = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[3].innerText = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
-paragraphs[5].innerText = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[4].innerText = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 
-paragraphs[6].innerText = '123 Way 456 Street \r\n Somewhere, USA';
+paragraphs[5].innerText = '123 Way 456 Street \r\n Somewhere, USA';
 
-paragraphs[7].innerText = '1 (888) 888-8888';
+paragraphs[6].innerText = '1 (888) 888-8888';
+
+paragraphs[7].innerText = 'sales@greatidea.io';
 
 paragraphs[8].innerText = 'Copyright Great Idea! 2018';
 
-
-
+const h4s = document.getElementsByTagName('h4');
+h4s[0].textContent = 'Features';
+h4s[1].textContent = 'About';
+h4s[2].textContent = 'Services';
+h4s[3].textContent = 'Product';
+h4s[4].textContent = 'Vision';
+h4s[5].textContent = 'Contact';

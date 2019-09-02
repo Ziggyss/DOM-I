@@ -109,6 +109,17 @@ nav.children[0].style.color = 'green';
 nav.children[7].innerText = 'Search';
 nav.children[7].style.color = 'green';
 
+ctaText.style.color = "teal";
+button.style.color = "red";
+anchors.forEach(element => {
+  element.style.color = 'teal';
+});
+//This is interesting - why did it only change the colour of the previously created anchors and not the newly added ones? I noticed earlier that they don't automatically inherit the style of their element.
+
+paragraphs[0].style.fontStyle = 'italic';
+
+
+
 
 
 

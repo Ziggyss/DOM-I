@@ -49,14 +49,11 @@ anchors[3].textContent = siteContent["nav"]["nav-item-4"];
 anchors[4].textContent = siteContent["nav"]["nav-item-5"];
 anchors[5].textContent = siteContent["nav"]["nav-item-6"];
 
-const logoImage = document.querySelector('#logo-img');
-logoImage.src = 'img/logo.png';
+let ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute('src', siteContent["cta"]["img-src"]);
 
-const ctaImage = document.querySelector('#cta-img');
-ctaImage.src = 'img/header-img.png';
-
-const middleImage = document.querySelector('#middle-img');
-middleImage.src = 'img/mid-page-accent.jpg';
+let middleImage = document.getElementById("middle-img");
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
 const ctaText = document.querySelector('.cta-text');
 ctaText.children[0].innerText = 'DOM \r\n Is \r\n Awesome';

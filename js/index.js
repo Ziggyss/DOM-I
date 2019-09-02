@@ -122,6 +122,10 @@ var eventButton = document.createElement('button');
 ctaText.appendChild(eventButton);
 eventButton.innerText = 'Update Content';
 
+eventButton.addEventListener('click', (event) => {
+  alert('Updating Content')
+});
+
 
 
 

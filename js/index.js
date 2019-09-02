@@ -58,5 +58,10 @@ ctaImage.src = 'img/header-img.png';
 const ctaText = document.querySelector('.cta-text');
 ctaText.children[0].innerText = 'DOM \r\n Is \r\n Awesome';
 
+const button = document.querySelector('button');
+button.innerText = 'Get Started';
+
+
+
 
 

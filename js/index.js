@@ -59,18 +59,18 @@ const ctaText = document.querySelector('.cta-text');
 ctaText.children[0].innerText = 'DOM \r\n Is \r\n Awesome';
 
 const button = document.querySelector('button');
-button.innerText = 'Get Started';
+button.innerText = siteContent['cta']['button'];
 
 const paragraphs = document.getElementsByTagName('p');
-paragraphs[0].innerText = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[0].innerText = siteContent['main-content']['features-content'];
 
-paragraphs[1].innerText = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[1].innerText = siteContent['main-content']['about-content'];
 
-paragraphs[2].innerText = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[2].innerText = siteContent['main-content']['services-content'];
 
-paragraphs[3].innerText = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+paragraphs[3].innerText = siteContent['main-content']['product-content'];
 
-paragraphs[4].innerText = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+paragraphs[4].innerText = siteContent['main-content']['vision-content'];
 
 paragraphs[5].innerText = '123 Way 456 Street \r\n Somewhere, USA';
 

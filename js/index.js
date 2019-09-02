@@ -61,7 +61,22 @@ ctaText.children[0].innerText = 'DOM \r\n Is \r\n Awesome';
 const button = document.querySelector('button');
 button.innerText = 'Get Started';
 
+const paragraphs = document.getElementsByTagName('p');
+paragraphs[0].innerText = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
+paragraphs[1].innerText = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+paragraphs[2].innerText = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+paragraphs[4].innerText = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+paragraphs[5].innerText = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+paragraphs[6].innerText = '123 Way 456 Street \r\n Somewhere, USA';
+
+paragraphs[7].innerText = '1 (888) 888-8888';
+
+paragraphs[8].innerText = 'Copyright Great Idea! 2018';
 
 
 

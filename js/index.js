@@ -41,11 +41,18 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let anchors = document.querySelectorAll('a');
+const anchors = document.querySelectorAll('a');
 anchors[0].textContent = "Services";
 anchors[1].textContent = "Product";
 anchors[2].textContent = "Vision";
 anchors[3].textContent = "Features";
 anchors[4].textContent = "About";
 anchors[5].textContent = "Contact";
+
+const logoImage = document.querySelector('#logo-img');
+logoImage.src = 'img/logo.png';
+
+const ctaImage = document.querySelector('#cta-img');
+ctaImage.src = 'img/header-img.png';
+
 

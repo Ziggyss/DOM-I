@@ -95,3 +95,22 @@ anchors.forEach(element => {
   element.style.color = 'green';
 });
 
+var a = document.createElement('a');
+var a2 = document.createElement('a');
+
+let nav = document.querySelector('nav');
+
+nav.prepend(a);
+nav.appendChild(a2);
+
+nav.children[0].innerText = 'Home';
+nav.children[0].style.color = 'green';
+
+nav.children[7].innerText = 'Search';
+nav.children[7].style.color = 'green';
+
+
+
+
+
+

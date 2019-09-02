@@ -90,3 +90,8 @@ h4s[2].textContent = 'Services';
 h4s[3].textContent = 'Product';
 h4s[4].textContent = 'Vision';
 h4s[5].textContent = 'Contact';
+
+anchors.forEach(element => {
+  element.style.color = 'green';
+});
+

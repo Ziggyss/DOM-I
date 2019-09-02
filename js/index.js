@@ -123,7 +123,8 @@ ctaText.appendChild(eventButton);
 eventButton.innerText = 'Update Content';
 
 eventButton.addEventListener('click', (event) => {
-  alert('Updating Content')
+  alert('Updating Content');
+  window.location.reload();
 });
 
 

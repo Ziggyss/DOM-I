@@ -55,4 +55,8 @@ logoImage.src = 'img/logo.png';
 const ctaImage = document.querySelector('#cta-img');
 ctaImage.src = 'img/header-img.png';
 
+const ctaText = document.querySelector('.cta-text');
+ctaText.children[0].innerText = 'DOM \r\n Is \r\n Awesome';
+
+
 

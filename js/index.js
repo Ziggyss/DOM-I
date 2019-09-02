@@ -118,7 +118,9 @@ anchors.forEach(element => {
 
 paragraphs[0].style.fontStyle = 'italic';
 
-
+var eventButton = document.createElement('button');
+ctaText.appendChild(eventButton);
+eventButton.innerText = 'Update Content';
 
 
 
